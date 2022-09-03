@@ -1,0 +1,2 @@
+// ini
+console.log('loaded...');
