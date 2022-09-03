@@ -1,0 +1,56 @@
+/*
+ * Form
+ */
+.form {
+    border: 1px solid #cecece;
+    border-radius: 6px;
+    display: block;
+    // background-color: #dfdfdf;
+    padding: 1rem;
+
+    .form__wrapper {
+        padding: .5rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .form__field {
+            &.form__field+div {
+                margin-left: 1rem;
+            }
+
+            &.form__grow--1 {
+                width: 100%;
+                flex-grow: 1;
+            }
+
+            &.form__grow--2 {
+                width: auto;
+                flex-grow: 2;
+            }
+
+            &.form__grow--3 {
+                width: auto;
+                flex-grow: 3;
+            }
+
+            label {
+                display: inline-block;
+                font-weight: bold;
+                margin-bottom: .5em;
+            }
+
+            .input {
+                width: 100%;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-shadow: 0 0 3px #ddd inset;
+                color: #666;
+                height: 33px;
+                line-height: 24px;
+                padding-left: 11px;
+                padding-right: 11px;
+            }
+        }
+    }
+}

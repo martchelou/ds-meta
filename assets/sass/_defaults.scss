@@ -1,5 +1,5 @@
 /*
-* Defautls
+* Defautls base start configuration
 */
 html {
     scroll-behavior: smooth;
@@ -9,4 +9,13 @@ body {
     color: #fff;
     background-color: #000;
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #eee;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
